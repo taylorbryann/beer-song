@@ -18,6 +18,17 @@ public class BeerSong {
                     System.out.println (beerNum + word + " of beer"); //98 bottles of beer. 
                 } //end if-statement
             
+		
+		if (beerNum < 1) {
+                    System.out.println ("No more bottles of beer");
+                    System.out.println ("No more bottles of beer on the wall");
+                    System.out.println ("No more bottles of beer");
+                    System.out.println ("Go to the store and buy some more");
+                    System.out.println ("99 bottles of beer on the wall");                                       
+                    
+                } //end if-statement
+
+
         } //end while-statement   
    
     } //end main method
