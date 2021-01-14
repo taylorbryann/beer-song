@@ -1,0 +1,24 @@
+public class BeerSong {
+    public static void main (String [] args) {
+        int beerNum = 99; //this is the begining looping variable
+        String word = " bottles"; 
+        
+        while (beerNum > 0) { //this is the condition
+            if (beerNum == 1) {
+                String word = " bottle"; //only one bottle
+            } //end if=statement
+            
+            System.out.println (beerNum + word + " of beer on the wall"); //99 bottles of beer on the wall
+            System.out.println (beerNum + word + " of beer"); //99 bottles of beer
+            System.out.println ("Take one down, pass it around"); //Take one down, pass it around. 
+            
+            beerNum = beerNum - 1;
+            
+                if (beerNum > 1) {
+                    System.out.println (beerNum + word + " of beer"); //98 bottles of beer. 
+                } //end if-statement
+            
+        } //end while-statement   
+   
+    } //end main method
+} //end public class BeerSong
